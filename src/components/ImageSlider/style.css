@@ -1,0 +1,52 @@
+.container{
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+.arrow{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.leftArrow{
+    left: 1rem;
+}
+.rightArrow{
+    right: 1rem;
+}
+
+.indicator{
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  gap: 1rem;
+  
+  
+}
+
+.indicator button{
+    border: none;
+    outline: none;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hideImage{
+    display: none;
+}
+
+.blurButton{
+    background-color: grey;
+}

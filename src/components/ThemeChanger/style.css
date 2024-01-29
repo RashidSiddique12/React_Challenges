@@ -1,0 +1,22 @@
+:root {
+  --bg: white;
+  --bgButton: black;
+  --bgText: white;
+}
+
+[data-theme="black"] {
+  --bg: black;
+  --bgButton: white;
+  --bgText: black;
+}
+
+.box{
+    background-color: var(--bg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.box button{
+    background-color: var(--bgButton);
+    color: var(--bgText);
+}

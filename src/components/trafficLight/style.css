@@ -1,0 +1,30 @@
+.traffic{
+    background-color: black;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* gap:  2rem; */
+    justify-content: space-around;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.grey{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    
+}
+.red{
+    background-color: red;
+    
+}
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
